@@ -7,7 +7,7 @@ def gross_for_director(director_data)
   index = 0
   director_gross = 0
   
-  while index > director_data.length do
+  while index < director_data.length do
     director_gross += director_data[index][:worldwide_gross]
     index += 1
   end
